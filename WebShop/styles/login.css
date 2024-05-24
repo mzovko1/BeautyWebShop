@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  .nav-web-market {
+    background-color: palevioletred;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-web-market h1 a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: palevioletred;
+  }
+  
+  @media (max-width: 768px) {
+    .login-form {
+      padding: 10px;
+    }
+  }
+  

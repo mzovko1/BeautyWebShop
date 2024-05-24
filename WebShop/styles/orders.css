@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.nav-dashboard {
+  background-color: palevioletred;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-dashboard a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.dashboard-menu {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-menu button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.order-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order {
+  margin-bottom: 20px;
+}
+
+.order-first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-first-section h2 {
+  margin: 0;
+}
+
+.order-first-section span {
+  font-weight: bold;
+}
+
+.remove-order-btn {
+  background-color: palevioletred;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.name-surname-order,
+.address-order {
+  margin-top: 10px;
+}
+
+.name-surname-order p,
+.address-order p {
+  margin: 5px 0;
+}
+
+.name-surname-order span {
+  font-weight: bold;
+}
+
+.address-order a {
+  color: palevioletred;
+  text-decoration: none;
+}
+
+#order-title {
+  margin-top: 20px;
+}
+
+.ordered-items-container {
+  margin-top: 10px;
+}
+
+.ordered-item {
+  margin-bottom: 10px;
+}
+
+.ordered-item h3 {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .order-content {
+    padding: 10px;
+  }
+}
